@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- Start the template publisher ROS node.-->
+  <node name="angvel_server" pkg="week_2" type="service.py"
+    output="screen"/>
+
+  <!-- Start the template subscriber ROS node.-->
+  <node name="rad" pkg="week_2" type="pub.py"
+    output="screen"/>
+
+    <node name="angvel_client2" pkg="week_2" type="turtlebot.py"
+    output="screen"/>  
+
+
+</launch>
