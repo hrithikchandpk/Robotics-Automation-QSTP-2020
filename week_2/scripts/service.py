@@ -7,7 +7,7 @@ import rospy
 
 def process_service_request(req):
     resp = angvelResponse()
-    resp.angvel = 1 / req.radius
+    resp.angvel = 1 / req.radius   #ang vel=linear velocity/radius    linear vel=1
     return resp
 
 
