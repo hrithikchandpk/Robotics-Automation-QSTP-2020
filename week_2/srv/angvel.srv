@@ -1,3 +1,4 @@
-std_msgs/Float64 radius		
+std_msgs/Float64 radius	
 ---
-float64 angvel
+float64 angvel1
+
