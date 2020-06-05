@@ -1,4 +1,5 @@
 
 CONTAINS ROSBAG FILES
-circle is with linearvelocity 0.2
+circle is with linearvelocity 1
 circle2-is with linearvelocity 0.2
+bonus excutes trajectory of 8
