@@ -9,8 +9,9 @@
   <node name="rad" pkg="week_2" type="pub.py"
     output="screen"/>
 
-    <node name="angvel_client2" pkg="week_2" type="turtlebot.py"
+    <node name="angvel_client" pkg="week_2" type="turtlebot.py"
     output="screen"/>  
 
 
 </launch>
+
